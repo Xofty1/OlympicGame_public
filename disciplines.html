@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/x-icon" href="materials/icon.png" />
+    <title>Олимпийские игры</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="burger-menu">
+          <input type="checkbox" id="menu-toggle" />
+          <label id="trigger" for="menu-toggle"></label>
+          <label id="burger" for="menu-toggle"></label>
+          <ul id="menu">
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="disciplines.html">Дисциплины</a></li>
+            <li><a href="records.html">Страны</a></li>
+            <li><a href="continents.html">Олимпийская эмблема</a></li>
+          </ul>
+        </div>
+        <nav class="main-menu">
+          <ul class="main-menu__inner">
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="disciplines.html">Дисциплины</a></li>
+            <li><a href="records.html">Страны</a></li>
+            <li><a href="continents.html">Олимпийская эмблема</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="main_wrapper_first_img">
+          <div class="wrapper_img_first_img">
+            <div class="overlay"></div>
+            <img
+              src="materials/disciplines.jfif"
+              alt="stadium"
+              draggable="false"
+              class="stadium_img"
+            />
+          </div>
+          <div class="text_first_img">
+            <div class="main_wrapper_first_img__big">
+              Олимпийские дисциплины
+            </div>
+          </div>
+        </div>
+        <div class="for_h with_margin">
+          <h1>Какие же дисциплины существуют на олимпийских играх?</h1>
+        </div>
+
+        <ul>
+          <li onclick="revealText(this)">
+            <div class="for_h to_left"><h3>BMX-мотокрос</h3></div>
+            <span class="hidden-text"
+              >В BMX-гонках максимум восемь гонщиков соревнуются на трассе с
+              прямыми участками, буграми и виражами. Побеждает тот, кто первым
+              пересечет финишную черту.</span
+            >
+          </li>
+          <li onclick="revealText(this)">
+            <div class="for_h to_left"><h3>Баскетбол</h3></div>
+            <span class="hidden-text"
+              >Баскетбол – это командный вид спорта на прямоугольной площадке.
+              Две команды по пять игроков соревнуются, кто наберет больше очков,
+              забрасывая мяч в кольцо, или корзину, соперника.</span
+            >
+          </li>
+          <li onclick="revealText(this)">
+            AAA<br />
+            <span class="hidden-text">Это 3 буквы</span>
+          </li>
+          <li onclick="revealText(this)">
+            AAA<br />
+            <span class="hidden-text">Это 3 буквы</span>
+          </li>
+          <li onclick="revealText(this)">
+            AAA<br />
+            <span class="hidden-text">Это 3 буквы</span>
+          </li>
+        </ul>
+        <div class="marquee-infinite">
+          <div>
+            <span>
+              <img
+                src="materials/bmx.jpg"
+                alt="Your Image"
+                class="running_image"
+              />
+              <img
+                src="materials/basketball.jpg"
+                alt="Your Image"
+                class="running_image"
+              />
+            </span>
+            <span>
+              <img
+                src="materials/bmx.jpg"
+                alt="Your Image"
+                class="running_image"
+              />
+              <img
+                src="materials/basketball.jpg"
+                alt="Your Image"
+                class="running_image"
+              />
+            </span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="info">
+          <ul class="info__inner">
+            Олимпийские игры
+            <li class="first_li_info"><a href="main.html">Главная</a></li>
+            <li><a href="disciplines.html">Дисциплины</a></li>
+            <li><a href="records.html">Страны</a></li>
+          </ul>
+          <ul class="info__inner">
+            Олимпийские игры
+            <li class="first_li_info"><a href="main.html">Главная</a></li>
+            <li><a href="disciplines.html">Дисциплины</a></li>
+            <li><a href="records.html">Страны</a></li>
+          </ul>
+          <ul class="info__inner">
+            Олимпийские игры
+            <li class="first_li_info"><a href="main.html">Главная</a></li>
+            <li><a href="disciplines.html">Дисциплины</a></li>
+            <li><a href="records.html">Страны</a></li>
+            <li><a href="continents.html">Олимпийская эмблема</a></li>
+          </ul>
+        </div>
+        <div class="social-web">
+          <a href="#" class="social-link">
+            <img src="materials/telegram.png" alt="telegram" />
+          </a>
+          <a href="#" class="social-link">
+            <img src="materials/vk.png" alt="vk" />
+          </a>
+          <a href="#" class="social-link">
+            <img src="materials/youtube.png" alt="youtube" />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
